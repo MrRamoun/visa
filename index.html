@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+    <form action="">
+        <legend>
+            <h1>تحويل أموال <img src="lock.png"></h1>
+            <p>* يتم خصم رسوم التحويل 3$ من الراسل</p>
+        </legend> 
+        <div class="payment_option">
+            <input type="radio" name="paypal" id="paypal">
+            <label for="paypal">PayPal</label><img src="paypal.png" alt="paypal"><br>
+
+            <input type="radio" name="rad" id="rad">
+            <label for="rad">
+               بطاقة إئتمانية / بطاقة دفع مسبق
+            </label><img src="visa.png" alt="visa"><br><br>
+        </div>
+        <fieldset>    
+            <legend>من</legend>
+
+
+                <label for="text">الأسم المدون علي البطاقة</label>
+                <input type="text" 
+                id="text" name="text" placeholder="مثال: Abdelrahman Mohamed Tarek" value="  ABDELRAHMAN MOHAMED TAREQ GAZOOLI"><br>
+
+                <label 
+                for="tel">رقم البطاقة</label>
+                <input id="tel" type="tel" 
+                inputmode="numeric" value="  4097 9246 9762 3423" autocomplete="cc-number" maxlength="29" 
+                placeholder="0000 0000 0000 0000" ><br>
+
+                <label 
+                for="expdate">تاريخ الإنتهاء</label>
+                <input type="tel" 
+                id="expdate" name="expdate" placeholder="MM/YYYY" value="  06/24"><br>
+
+                <label 
+                for="tel">كود التأمين</label>
+                <input type="tel" 
+                id="tel" name="tel" placeholder="000" value="  762"><br>
+
+        </fieldset>  
+        <fieldset>    
+            <legend>إلي</legend>
+            <label 
+            for="number">رقم البطاقة</label>
+            <input id="tel" type="tel" 
+                inputmode="numeric" pattern="[0-9\s]{19,19}" autocomplete="cc-number" maxlength="19" 
+                placeholder="0000 0000 0000 0000" value="  5264 3999 6539 3909"><br>
+            <label 
+            for="number">المبلغ</label>
+            <input id="tel" type="tel" 
+                inputmode="numeric" pattern="[0-9\s]{19,19}" autocomplete="cc-number" maxlength="19" 
+                placeholder="0000 0000 0000 0000" value="  5,000 EGP"><br>
+        </fieldset>     
+        <button>تحويل<img src="green_lock.png" alt="green_lock"></button>
+    </form>
+</body>
+</html>
+
+<!-- 
+    4097 9246 9762 3423
+    ABD-ELRAHMAN MOHAMMED TAREQ GAZOOLI
+    06/24
+    762
+
+    4035 3005 3980 4083 
+    MOHAMMED ALI MOHAMMED QANDEEL
+    11/22
+    212
+
+    4208 0948 6760 2273
+    Mahmoud Gaber
+
+    4742 6710 9589 3148
+    Abdelrahman Ganim
+
+
+    4978 3372 5239 6029
+    Amir Hajjar
+
+    Hossam saleeb
+
+    Nader Harb
+
+    Sabbag
+
+    Hassan Assaf
+Chisisi Kalb
+Louai Shamoun
+Omar Khoury
+Louai Antoun
+Hosni Toma
+Mazen Hanania
+Athouman Naifeh
+Hossam Kouri
+Ali Shamoun
+Hussein Bata
+Mustafa Maroun
+maged
+Khaled 
+Abasi
+Halabi
+Naser
+Malouf
+Adham
+Shadid
+Ubaid Mansour
+Dodi Tuma
+Chaths Ghannam
+Ishaq Mansour
+Adel Samaha
+Mamdoh Ba
+Omar Baba
+Mohab Botros
+Assem Baba
+Bebi Khouri
+Mando Mansou
+Osama
+Malek
+
+Master Card Number:5334 8972 6051 2053Credit Card Expire:9/2022Security Code:743
+Master Card Number:5572 5642 1034 0024Credit Card Expire:8/2023Security Code:714
+Master Card Number:5523 2604 7392 8759Credit Card Expire:1/2023Security Code:468
+Visa Card Number:4485 8545 1576 9681Credit Card Expire:12/2021Security Code:827
+ -->
+
+ 
+ 
+ 
